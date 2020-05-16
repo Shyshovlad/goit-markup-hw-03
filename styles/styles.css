@@ -1,0 +1,357 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+}
+
+/*цвет основного текста #212121;
+вторичный цвет текста #757575
+цвет акцента #2196F3
+вторичный цвет макета #F5F4FA
+цвет подвала #2F303A*/
+
+.body {
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  margin: 0px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+  margin: 0px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/*--header--*/
+.hero h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: grey;
+}
+
+.nav-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.nav-logo span {
+  color: var(--primary-text-color);
+}
+.nav-logo:focus {
+  color: var(--accent-color);
+}
+.page-nav a:hover,
+.page-nav a:focus {
+  color: var(--accent-color);
+}
+
+.nav-contacts a {
+  color: var(--secondary-text-color);
+}
+
+.nav-contacts a:hover,
+.nav-contacts a:focus {
+  color: var(--accent-color);
+}
+/*hero*/
+
+.hero a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.hero a:hover,
+.hero a:focus {
+  color: rgb(255, 255, 255);
+}
+
+/*features*/
+.feature-title {
+  display: none;
+}
+.features-list p {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.features-work p {
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+}
+.features-work a:hover,
+.features-work a:focus {
+  color: var(--accent-color);
+}
+
+/*section-team*/
+.section-team {
+  background-color: #f5f4fa;
+}
+
+.section-team h3 {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.section-team p {
+  font-weight: 400;
+  color: var(--secondary-text-color);
+  font-size: 16px;
+}
+
+.socials a:hover,
+.socials a:focus {
+  background-color: var(--accent-color);
+}
+
+/*section-team*/
+.section-team {
+  background-color: #f5f4fa;
+}
+
+.section-team h3 {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.section-team p {
+  font-weight: 400;
+  color: var(--secondary-text-color);
+  font-size: 16px;
+}
+
+.socials li {
+  display: inline;
+}
+
+.socials a:hover,
+.socials a:focus {
+  background-color: var(--accent-color);
+}
+
+/*clients*/
+.section-clients a:hover,
+.section-clients a:focus {
+  background-color: var(--accent-color);
+}
+
+/*footer*/
+
+.footer {
+  background-color: #2f303a;
+}
+.footer-link {
+  color: var(--accent-color);
+  font-size: 22px;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.footer-link span {
+  color: #ffffff;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-list {
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-list-adress {
+  color: #ffffff;
+}
+.footer-list-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer h3 {
+  color: #ffffff;
+}
+.footer-socials li {
+  display: inline;
+}
+.footer-socials a:hover,
+.footer-socials a:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-button {
+  color: white;
+  background-color: var(--accent-color);
+}
+.footer-form li:hover,
+.footer-form li:focus {
+  background-color: var(--accent-color);
+}
+.footer .text {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/*----------------------------------PORTFOLIO---------------------------------*/
+
+.title-portf {
+  display: none;
+}
+.list-button li {
+  display: inline;
+}
+
+.list-button button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.list-button :hover,
+.list-button :focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.list-content h2 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.list-content p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--secondary-text-color);
+}
+
+/*----------------------Geometry--------------------*/
+.body {
+  width: 1600px;
+  height: 2924px;
+  background: #ffffff;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.hero-container {
+  padding: 200px 480px;
+  text-align: center;
+}
+.hero h1 {
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+.container ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0px;
+}
+/*-----features----------*/
+.features {
+  margin-top: 94px;
+}
+.features-list h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.features-list p {
+  margin: 0px;
+}
+.features-work {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.container h2 {
+  margin-bottom: 50px;
+}
+.features-work p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+/*-------team---------*/
+.section-team {
+  background-color: #f5f4fa;
+}
+.team-container {
+  padding: 94px 200px;
+}
+.team-container h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.team-container p {
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.section-clients {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+/*-------footer------*/
+.footer-list-adress {
+  margin-top: 10px;
+}
+.footer-list-link {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.text {
+  text-align: center;
+}
+/*------------------------portfolio geometry---------------------*/
+.button-container .list-button {
+  margin-top: 93px;
+  margin-bottom: 34px;
+  text-align: center;
+  padding: 0px;
+}
+.list-content h2 {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.list-content p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
