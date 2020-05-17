@@ -16,26 +16,28 @@
   </head>
   <body class="body">
     <!--Header-->
-    <header>
-      <div class="head-container container">
+    <header class="header">
+      <div class="header-container container">
         <nav class="page-nav">
-          <a class="nav-logo" href="/">Web <span>Studio</span></a>
-          <ul>
-            <li><a href="./index.html">Студия</a></li>
-            <li><a href="./portfolio.html">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
+          <a class="nav-logo" href="./index.html">Web <span>Studio</span></a>
+          <ul class="nav-list">
+            <li class="item"><a class="link" href="./index.html">Студия</a></li>
+            <li class="item">
+              <a class="link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item"><a class="link" href="">Контакты</a></li>
           </ul>
         </nav>
         <!--Contacts-->
         <ul class="nav-contacts">
-          <li>
-            <a href=""
-              ><img src="./images/mail-icon.svg" alt="" />info@devstudio.com</a
+          <li class="item">
+            <a class="link" href=""
+              ><img src="./images/mail-icon.svg" alt="" /> info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href=""
-              ><img src="./images/tel-icon.svg" alt="" />+38 096 111 11 11</a
+          <li class="item">
+            <a class="link" href=""
+              ><img src="./images/tel-icon.svg" alt="" /> +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -44,34 +46,43 @@
     <main>
       <!--Hero-->
       <section class="hero">
-        <div class="hero-container">
-          <h1>Эффективные решения для вашего бизнеса</h1>
-          <a href="">Заказать услугу</a>
-        </div>
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <a class="hero-button" href="">Заказать услугу</a>
       </section>
       <!--Преимущества-->
       <section class="features">
-        <div class="features-container container">
+        <div class="container">
           <h2 class="feature-title">Преимущества</h2>
-          <ul class="features-list">
-            <li>
-              <img src="./images/antenna.svg" alt="антена" title="антена" />
+          <ul class="features-list list-flex">
+            <li class="list-item">
+              <img
+                class="image"
+                src="./images/antenna.svg"
+                alt="антена"
+                title="антена"
+              />
               <h3>Внимание к деталям</h3>
               <p>
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
-              <img src="./images/clock.svg" alt="часы" title="часы" />
+            <li class="list-item">
+              <img
+                class="image"
+                src="./images/clock.svg"
+                alt="часы"
+                title="часы"
+              />
               <h3>Пунктуальность</h3>
               <p>
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="list-item">
               <img
+                class="image"
                 src="./images/diagram.svg"
                 alt="диаграмма"
                 title="диаграмма"
@@ -82,8 +93,9 @@
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="list-item">
               <img
+                class="image"
                 src="./images/astronaut.svg"
                 alt="астронавт"
                 title="астронавт"
@@ -101,22 +113,36 @@
       <section class="features-work">
         <div class="work-container container">
           <h2>Чем мы занимаемся</h2>
-          <ul>
-            <li>
-              <img src="./images/noutbuk.jpg" alt="ноутбук" title="ноутбук" />
-              <p>Десктопные приложения</p>
+          <ul class="work-list list-flex">
+            <li class="list-item">
+              <a href=""
+                ><img
+                  src="./images/noutbuk.jpg"
+                  alt="ноутбук"
+                  title="ноутбук"
+                />
+                <p>Десктопные приложения</p></a
+              >
             </li>
-            <li>
-              <img src="./images/mobile.jpg" alt="смартфон" title="смартфон" />
-              <p>Мобильные приложения</p>
+            <li class="list-item">
+              <a href=""
+                ><img
+                  src="./images/mobile.jpg"
+                  alt="смартфон"
+                  title="смартфон"
+                />
+                <p>Мобильные приложения</p></a
+              >
             </li>
-            <li>
-              <img
-                src="./images/computer.jpg"
-                alt="компьютер"
-                title="компьютер"
-              />
-              <p>Дизайнерские решения</p>
+            <li class="list-item">
+              <a href=""
+                ><img
+                  src="./images/computer.jpg"
+                  alt="компьютер"
+                  title="компьютер"
+                />
+                <p>Дизайнерские решения</p>
+              </a>
             </li>
           </ul>
         </div>
@@ -125,8 +151,8 @@
       <section class="section-team">
         <div class="team-container container">
           <h2>Наша команда</h2>
-          <ul>
-            <li>
+          <ul class="team-list list-flex">
+            <li class="list-item">
               <img src="./images/john-smith.jpg" alt="John Smith" />
               <h3>John Smith</h3>
               <p>Product Designer</p>
@@ -153,7 +179,7 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="list-item">
               <img src="./images/marta-stewart.jpg" alt="Marta Stewart" />
               <h3>Marta Stewart</h3>
               <p>Frontend Developer</p>
@@ -180,7 +206,7 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="list-item">
               <img src="./images/robert-jakis.jpg" alt="Robert Jakis" />
               <h3>Robert Jakis</h3>
               <p>Marketing</p>
@@ -207,7 +233,7 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="list-item">
               <img src="./images/martin-doe.jpg" alt="Martin Doe" />
               <h3>Martin Doe</h3>
               <p>UI Designer</p>
@@ -241,23 +267,23 @@
       <section class="section-clients">
         <div class="clients-container container">
           <h2>Постоянные клиенты</h2>
-          <ul>
-            <li>
+          <ul class="client-list list-flex">
+            <li class="list-item">
               <a href=""><img src="./images/client1.svg" alt="logo" /></a>
             </li>
-            <li>
+            <li class="list-item">
               <a href=""><img src="./images/client2.svg" alt="logo" /></a>
             </li>
-            <li>
+            <li class="list-item">
               <a href=""><img src="./images/client3.svg" alt="logo" /></a>
             </li>
-            <li>
+            <li class="list-item">
               <a href=""><img src="./images/client4.svg" alt="logo" /></a>
             </li>
-            <li>
+            <li class="list-item">
               <a href=""><img src="./images/client5.svg" alt="logo" /></a>
             </li>
-            <li>
+            <li class="list-item">
               <a href=""><img src="./images/client6.svg" alt="logo" /></a>
             </li>
           </ul>
