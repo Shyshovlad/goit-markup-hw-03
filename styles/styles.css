@@ -24,7 +24,6 @@ html {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  background: #ffffff;
 }
 .container {
   width: 1230px;
@@ -52,14 +51,15 @@ h3 {
   line-height: 1.42;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0px;
 }
-h2 {
+.main-index h2 {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
   margin: 0px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 /*--header--*/
@@ -131,6 +131,7 @@ h2 {
   text-transform: uppercase;
   color: #ffffff;
   background-color: grey;
+  margin: 0px;
   margin-bottom: 50px;
 }
 .hero-button {
@@ -164,7 +165,7 @@ h2 {
   display: none;
 }
 .features {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 .features-list .list-item {
   width: 278px;
@@ -173,13 +174,7 @@ h2 {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.container h2 {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.7;
-  text-align: center;
-  margin-bottom: 50px;
-}
+
 .features-list p {
   color: var(--secondary-text-color);
   font-weight: 400;
@@ -189,8 +184,8 @@ h2 {
 /*-------work------*/
 
 .features-work {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .features-work p {
   text-transform: uppercase;
@@ -235,15 +230,15 @@ h2 {
   color: var(--secondary-text-color);
   font-size: 16px;
 }
-.socials {
+.social {
   display: flex;
   justify-content: center;
   justify-content: space-between;
   margin-left: 35px;
   margin-right: 35px;
 }
-.socials a:hover,
-.socials a:focus {
+.social a:hover,
+.social a:focus {
   background-color: var(--accent-color);
 }
 
@@ -253,8 +248,8 @@ h2 {
   width: 175px;
 }
 .section-clients {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .section-clients a:hover,
 .section-clients a:focus {
@@ -297,15 +292,44 @@ h2 {
   margin-top: 9px;
   margin-bottom: 9px;
 }
-
+.footer-list-tel {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0px;
+  margin-bottom: 28px;
+}
+.footer-container {
+  display: flex;
+  padding-top: 48px;
+}
+.footer-social {
+  margin-left: 179px;
+  width: 207px;
+}
+.subscribe {
+  margin-left: auto;
+}
+.footer-form {
+  display: flex;
+}
+.input {
+  width: 270px;
+  height: 50px;
+  border-style: solid rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0);
+}
 .footer h3 {
   color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin-bottom: 21px;
 }
-.footer-socials li {
-  display: inline;
+.footer-social .list {
+  display: flex;
+  justify-content: space-between;
 }
-.footer-socials a:hover,
-.footer-socials a:focus {
+.footer-social a:hover,
+.footer-social a:focus {
   background-color: var(--accent-color);
 }
 
@@ -314,19 +338,30 @@ h2 {
   background-color: var(--accent-color);
   padding: 10px 45px;
   border-radius: 3px;
+  border: none;
+  min-width: 200px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  margin-left: 12px;
 }
+
 .footer-form li:hover,
 .footer-form li:focus {
   background-color: var(--accent-color);
 }
 
-.footer .text {
+.copyright {
   font-weight: normal;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
   text-align: center;
+  margin: 0px;
+  padding-bottom: 21px;
+  padding-top: 18px;
 }
 
 /*----------------------------------PORTFOLIO---------------------------------*/
@@ -340,8 +375,10 @@ h2 {
 .list-button {
   display: flex;
   justify-content: center;
-  margin-top: 93px;
-  margin-bottom: 34px;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 93px;
+  padding-bottom: 34px;
 }
 .list-button button {
   border: 0px;
@@ -382,7 +419,7 @@ h2 {
 .list-content .list-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
-.list-content h2 {
+.list-content .title {
   font-size: 18px;
   line-height: 2;
   margin-top: 20px;
