@@ -318,6 +318,7 @@ h3 {
 .footer-social {
   margin-left: 69px;
   margin-right: 93px;
+  max-width: 207px;
 }
 
 .footer-form {
@@ -443,8 +444,6 @@ h3 {
   line-height: 2;
   margin-top: 20px;
   margin-bottom: 4px;
-  text-align: left;
-  padding-left: 24px;
   letter-spacing: 0.06em;
 }
 .list-content p {
@@ -454,5 +453,7 @@ h3 {
   color: var(--secondary-text-color);
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.content-name {
   padding-left: 24px;
 }
